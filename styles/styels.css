@@ -1,0 +1,176 @@
+4
+@font-face {
+    font-family: Montserrat;
+    src: url(/lesson10Offline/fonts/Montserrat-Bold.ttf);
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.firstFigur {
+    position: absolute;
+    width: 10%;
+    height: 30%;
+    background-color: #EBF8E3;
+}
+#titleStyle {
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0.10000000149011612px;
+text-align: left;
+color: #252B42;
+}
+.title {
+    display: flex;
+    justify-content: right;
+    width: 25%;
+}
+#navMenuStyle {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: #737373;
+    text-decoration: none;
+}
+.navMenuBut {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+.butDiv {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+}
+.onlyLoginBut {
+    display: flex;
+    height: 80%;
+    width: 50%;
+    @font-face }
+.navMenu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:50%;
+}
+.mainHeader {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#loginStyle {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: right;
+    color: #96BB7C;
+}
+#joinUsStyle {
+    width: 137px;
+    height: Hug (52px);
+    padding: 15px 25px 15px 25px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    background-color: #96BB7C;
+    background-image: url("/lesson10Offline/image/arrow.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#secondFigur {
+    position: absolute;
+    width: 30%;
+    height: 50%;
+    background-color: #EBF8E3;
+}
+
+#wel{
+    color:  #96BB7C;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 150% */
+letter-spacing: 0.1px;
+}
+#text1{
+    width: 542px;
+    color: #252B42;
+font-family: Montserrat;
+font-size: 58px;
+font-style: normal;
+font-weight: 700;
+line-height: 80px; /* 137.931% */
+letter-spacing: 0.2px;
+}
+#text2{
+    color: var(--second-text-color, #737373);
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 150% */
+letter-spacing: 0.2px;
+}
+
+.butDiv1{
+    display: flex;
+}
+#onlyLoginBut1{
+    display: flex;
+    height: 80%;
+    width: 50%;
+}
+ #joinUsStyle1{
+    width: 162px;
+    height: 52px;
+    border-radius: 5px;
+    border: 1px solid var(--primary-color, #96BB7C);
+    
+ }
+ 
+
+#joinUsStyle1{
+    color: var(--light-text-color, #FFF);
+text-align: center;
+background-color: #96BB7C;
+/* btn-text */
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 22px; /* 157.143% */
+letter-spacing: 0.2px;
+    
+}
+#loginStyle1{
+padding: 15px 40px;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+border-radius: 5px;
+border: 1px solid var(--primary-color, #96BB7C);
+color: var(--primary-color, #96BB7C);
+text-align: center;
+
+/* btn-text */
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 22px; /* 157.143% */
+letter-spacing: 0.2px;
+}
+#photo1{
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+}
